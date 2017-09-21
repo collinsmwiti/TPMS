@@ -1,4 +1,44 @@
-/*Registration and Login Styling*/
+/*styling admin and user buttons at index*/
+
+#websmart {
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight: 100;
+  background: blue;
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin: 2rem;
+  margin-left: 450px;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#websmart button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255, 255, 255, 0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#websmart button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*styling both login and register forms*/
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -74,10 +114,10 @@ a:hover {
   display: none;
 }
 
-h1 {
+h3 {
   text-align: center;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 100;
   margin: 0 0 40px;
 }
 
@@ -188,4 +228,24 @@ textarea {
 .forgot {
   margin-top: -20px;
   text-align: right;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  padding: 10.5px;
+  margin: 0px;
+  line-height: 100%;
 }

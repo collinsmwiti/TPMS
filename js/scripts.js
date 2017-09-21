@@ -1,4 +1,3 @@
-//registration and login forms
 $('.form').find('input, textarea').on('keyup blur focus', function(e) {
 
   var $this = $(this),

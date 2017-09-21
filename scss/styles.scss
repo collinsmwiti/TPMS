@@ -1,7 +1,6 @@
-/*Registration and Login Styling*/
 @import "compass/css3";
 
-$body-bg: white;
+$body-bg: #c1bdba;
 $form-bg: #13232f;
 $white: #ffffff;
 
@@ -22,7 +21,7 @@ $br: 4px;
 }
 
 html {
-	overflow-y: scroll;
+	overflow-y: scroll; 
 }
 
 body {
@@ -42,8 +41,8 @@ a {
 .form {
   background:rgba($form-bg,.9);
   padding: 40px;
-  max-width:500px;
-  margin:10px auto;
+  max-width:600px;
+  margin:40px auto;
   border-radius:$br;
   box-shadow:0 4px 10px 4px rgba($form-bg,.3);
 }
@@ -159,7 +158,7 @@ textarea {
     float:left;
     width:48%;
     margin-right:4%;
-    &:last-child {
+    &:last-child { 
       margin:0;
     }
   }
